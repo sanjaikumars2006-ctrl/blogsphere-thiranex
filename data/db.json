@@ -1,0 +1,409 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Alex Morgan",
+      "email": "alex@example.com",
+      "password": "$2b$10$/4UvBid3HrF/mSUyZbGZ/OiLTB3IqN9Eyu9eKkknfXI1xy7P0XbVm",
+      "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+      "bio": "Senior Software Architect & Full-Stack Developer. Passionate about TypeScript, React, and scalable cloud systems.",
+      "role": "admin",
+      "skills": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "System Design",
+        "PostgreSQL"
+      ],
+      "website": "https://alexmorgan.dev",
+      "github": "https://github.com",
+      "twitter": "https://twitter.com",
+      "bookmarks": [
+        "post-2",
+        "post-4"
+      ],
+      "createdAt": "2025-01-10T08:00:00.000Z"
+    },
+    {
+      "id": "usr-2",
+      "name": "Sarah Chen",
+      "email": "sarah@example.com",
+      "password": "$2b$10$/4UvBid3HrF/mSUyZbGZ/OiLTB3IqN9Eyu9eKkknfXI1xy7P0XbVm",
+      "profileImage": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80",
+      "bio": "AI Researcher & ML Engineer exploring agentic workflows, LLMs, and generative technology.",
+      "role": "user",
+      "skills": [
+        "Python",
+        "PyTorch",
+        "Generative AI",
+        "Agents",
+        "FastAPI"
+      ],
+      "website": "https://sarahchen.ai",
+      "github": "https://github.com",
+      "twitter": "https://twitter.com",
+      "bookmarks": [
+        "post-1",
+        "post-3"
+      ],
+      "createdAt": "2025-02-14T10:30:00.000Z"
+    },
+    {
+      "id": "usr-3",
+      "name": "Marcus Vance",
+      "email": "marcus@example.com",
+      "password": "$2b$10$/4UvBid3HrF/mSUyZbGZ/OiLTB3IqN9Eyu9eKkknfXI1xy7P0XbVm",
+      "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+      "bio": "Lead UI/UX Designer & Frontend Craftsman. Building intuitive, accessible, and delightful design systems.",
+      "role": "user",
+      "skills": [
+        "Figma",
+        "UI/UX",
+        "TailwindCSS",
+        "Motion Design",
+        "Design Systems"
+      ],
+      "website": "https://marcusvance.design",
+      "github": "https://github.com",
+      "twitter": "https://twitter.com",
+      "bookmarks": [
+        "post-5"
+      ],
+      "createdAt": "2025-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "usr-4",
+      "name": "Elena Rostova",
+      "email": "elena@example.com",
+      "password": "$2b$10$/4UvBid3HrF/mSUyZbGZ/OiLTB3IqN9Eyu9eKkknfXI1xy7P0XbVm",
+      "profileImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+      "bio": "Engineering Manager & Tech Career Coach helping developers navigate their career growth and leadership.",
+      "role": "user",
+      "skills": [
+        "Engineering Management",
+        "Mentorship",
+        "Career Growth",
+        "Agile"
+      ],
+      "website": "https://elenarostova.io",
+      "github": "https://github.com",
+      "twitter": "https://twitter.com",
+      "bookmarks": [
+        "post-6"
+      ],
+      "createdAt": "2025-03-15T09:15:00.000Z"
+    },
+    {
+      "id": "usr-1788325079085",
+      "name": "sanjaikumar",
+      "email": "sanjaikumars799@gmail.com",
+      "password": "$2b$10$1ILEMnKUNYElwfQdoi91euPN2Ka2nBHe27UJEVnmaSSkd3/rsMQm.",
+      "profileImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&auto=format&fit=crop&q=80",
+      "bio": "Tech enthusiast and writer on BlogSphere.",
+      "role": "user",
+      "skills": [
+        "FullStack",
+        "JavaScript"
+      ],
+      "bookmarks": [],
+      "createdAt": "2026-09-02T04:57:59.085Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1788351727768",
+      "slug": "hi-it-s-me-7768",
+      "title": "hi it's me",
+      "excerpt": "show",
+      "content": "hiii my name \"SANJAIKUMAR\".I'm currently pursuing B.Tech(IT).",
+      "coverImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&auto=format&fit=crop&q=80",
+      "category": "Technology",
+      "tags": [
+        "FullStack",
+        "WebDev"
+      ],
+      "authorId": "usr-1788325079085",
+      "author": {
+        "id": "usr-1788325079085",
+        "name": "sanjaikumar",
+        "email": "sanjaikumars799@gmail.com",
+        "profileImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&auto=format&fit=crop&q=80",
+        "bio": "Tech enthusiast and writer on BlogSphere."
+      },
+      "status": "published",
+      "views": 3800,
+      "likes": [],
+      "readTime": 1,
+      "createdAt": "2026-09-02T12:22:07.768Z",
+      "updatedAt": "2026-09-02T12:22:07.768Z"
+    },
+    {
+      "id": "post-1",
+      "slug": "mastering-modern-fullstack-architecture-2025",
+      "title": "Mastering Modern Full-Stack Architecture in 2025",
+      "excerpt": "A comprehensive guide on building scalable, type-safe full-stack web applications with React 19, TypeScript, and modern backend design patterns.",
+      "content": "## The Modern Full-Stack Shift\n\nThe landscape of web development has evolved dramatically. Moving beyond traditional client-server divides, modern full-stack engineering demands end-to-end type safety, optimistic UI updates, and sub-millisecond response times.\n\n### 1. End-to-End Type Safety\nWith TypeScript 5.x and unified schema validators, you can share schemas seamlessly between database layers and React components. This eliminates runtime mismatches and boosts developer velocity.\n\n```typescript\n// Shared Post Schema Contract\nexport interface PostContract {\n  id: string;\n  title: string;\n  content: string;\n  tags: string[];\n  createdAt: Date;\n}\n```\n\n### 2. State & Caching Hierarchy\n- **Server Cache**: Keep immutable entities cached close to the edge.\n- **Client Cache**: Deduplicate requests and manage optimistic UI states.\n- **Component State**: Strictly preserve transient UI states like active dropdowns or input drafts.\n\n### 3. Key Takeaways\n1. Always validate data at the network boundary.\n2. Structure your APIs around RESTful resource verbs.\n3. Prioritize clean user interactions with smooth animations and instant optimistic feedback.\n\n> \"True craftsmanship lies in the details—responsive layouts, tactile transitions, and unshakeable reliability.\"",
+      "coverImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&auto=format&fit=crop&q=80",
+      "category": "Technology",
+      "tags": [
+        "TypeScript",
+        "React",
+        "Architecture",
+        "FullStack"
+      ],
+      "authorId": "usr-1",
+      "author": {
+        "id": "usr-1",
+        "name": "Alex Morgan",
+        "email": "alex@example.com",
+        "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+        "bio": "Senior Software Architect & Full-Stack Developer."
+      },
+      "status": "published",
+      "views": 1580,
+      "likes": [
+        "usr-2",
+        "usr-3",
+        "usr-4"
+      ],
+      "readTime": 6,
+      "createdAt": "2025-05-10T14:30:00.000Z",
+      "updatedAt": "2025-05-10T14:30:00.000Z"
+    },
+    {
+      "id": "post-2",
+      "slug": "demystifying-agentic-ai-workflows",
+      "title": "Demystifying Agentic AI Workflows and Autonomous Systems",
+      "excerpt": "Explore how reasoning loops, tool-calling capabilities, and multi-agent coordination are transforming automation across industries.",
+      "content": "## Why AI Agents Are the Next Computing Frontier\n\nWe have transitioned from passive chatbot interfaces to proactive, autonomous AI agents capable of planning multi-step actions, interacting with toolkits, and recovering from errors dynamically.\n\n### Core Anatomy of an Agent\n1. **Perception**: Receiving input multimodal context and system constraints.\n2. **Reasoning Loop**: ReAct (Reason + Act) loop formulating the next hypothesis.\n3. **Execution**: Calling tools and APIs to mutate system state.\n4. **Reflection**: Evaluating whether the action succeeded or needs correction.\n\n```python\nclass AutonomousAgent:\n    def __init__(self, tools, llm):\n        self.tools = tools\n        self.llm = llm\n        self.memory = []\n\n    def execute_plan(self, goal: str):\n        while not self.is_completed(goal):\n            step = self.llm.decide_next_step(goal, self.memory)\n            result = self.execute_tool(step.tool, step.args)\n            self.memory.append((step, result))\n```\n\n### Practical Tips for Developers\n- Keep tool contracts small and atomic.\n- Provide explicit error schemas for automatic self-correction.\n- Never pass sensitive credentials to untrusted client code.",
+      "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+      "category": "AI",
+      "tags": [
+        "AI",
+        "MachineLearning",
+        "Agents",
+        "Python"
+      ],
+      "authorId": "usr-2",
+      "author": {
+        "id": "usr-2",
+        "name": "Sarah Chen",
+        "email": "sarah@example.com",
+        "profileImage": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80",
+        "bio": "AI Researcher & ML Engineer exploring agentic workflows."
+      },
+      "status": "published",
+      "views": 1160,
+      "likes": [
+        "usr-1",
+        "usr-3"
+      ],
+      "readTime": 5,
+      "createdAt": "2025-05-14T09:20:00.000Z",
+      "updatedAt": "2025-05-14T09:20:00.000Z"
+    },
+    {
+      "id": "post-3",
+      "slug": "crafting-micro-interactions-with-framer-motion",
+      "title": "Crafting Tactile Micro-Interactions with Framer Motion",
+      "excerpt": "Learn the principles of physics-based spring animations, gesture physics, and exit transitions to make your web apps feel alive.",
+      "content": "## Motion as a Functional Guide\n\nAnimation on the web shouldn't merely be decorative; it should serve as visual reassurance, providing tactile feedback to every user interaction.\n\n### Spring Physics vs Easing Curves\nStandard cubic bezier curves can feel rigid or artificial. Natural spring physics provide dynamic responsiveness that adapts to user velocity.\n\n```tsx\nimport { motion } from \"motion/react\";\n\nexport const TactileButton = ({ children, onClick }) => (\n  <motion.button\n    whileHover={{ scale: 1.03, y: -2 }}\n    whileTap={{ scale: 0.97 }}\n    transition={{ type: \"spring\", stiffness: 400, damping: 17 }}\n    onClick={onClick}\n    className=\"px-6 py-3 rounded-xl bg-indigo-600 text-white font-medium shadow-lg\"\n  >\n    {children}\n  </motion.button>\n);\n```\n\n### Golden Rules of Web Motion\n- Keep interactive feedback under 200ms.\n- Always respect `prefers-reduced-motion`.\n- Use staggered reveals for lists to avoid visual pop-in.",
+      "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&auto=format&fit=crop&q=80",
+      "category": "Design",
+      "tags": [
+        "FramerMotion",
+        "UIUX",
+        "Animation",
+        "CSS"
+      ],
+      "authorId": "usr-3",
+      "author": {
+        "id": "usr-3",
+        "name": "Marcus Vance",
+        "email": "marcus@example.com",
+        "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+        "bio": "Lead UI/UX Designer & Frontend Craftsman."
+      },
+      "status": "published",
+      "views": 931,
+      "likes": [
+        "usr-1",
+        "usr-2",
+        "usr-4"
+      ],
+      "readTime": 4,
+      "createdAt": "2025-05-18T16:45:00.000Z",
+      "updatedAt": "2025-05-18T16:45:00.000Z"
+    },
+    {
+      "id": "post-4",
+      "slug": "from-junior-to-lead-the-engineering-roadmap",
+      "title": "From Junior to Lead: The Unspoken Engineering Roadmap",
+      "excerpt": "Technical excellence is only half the battle. Discover the critical soft skills, system mindset, and leadership habits needed to grow.",
+      "content": "## The Evolution of Seniority\n\nEarly in a software career, success is measured by tickets closed and lines of code written. As you advance towards senior and lead roles, success shifts towards impact, team enablement, and reducing organizational complexity.\n\n### The Three Pillars of Senior Engineering\n1. **Technical Judgment**: Choosing what NOT to build is often more impactful than what you choose to build.\n2. **Clarity in Communication**: Writing concise RFCs and architectural decision records (ADRs).\n3. **Multiplier Effect**: Mentoring teammates, conducting empathetic code reviews, and unblocking fellow engineers.\n\n### How to Accelerate Your Growth\n- Step up to tackle ambiguous, cross-functional problems.\n- Master trade-off analysis: latency vs cost, consistency vs availability.\n- Regularly share knowledge through tech talks and internal blogs.",
+      "coverImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&auto=format&fit=crop&q=80",
+      "category": "Career",
+      "tags": [
+        "Career",
+        "Leadership",
+        "Mentorship",
+        "Growth"
+      ],
+      "authorId": "usr-4",
+      "author": {
+        "id": "usr-4",
+        "name": "Elena Rostova",
+        "email": "elena@example.com",
+        "profileImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+        "bio": "Engineering Manager & Tech Career Coach."
+      },
+      "status": "published",
+      "views": 4799,
+      "likes": [
+        "usr-1",
+        "usr-2"
+      ],
+      "readTime": 5,
+      "createdAt": "2025-05-20T11:10:00.000Z",
+      "updatedAt": "2025-05-20T11:10:00.000Z"
+    },
+    {
+      "id": "post-5",
+      "slug": "building-performant-apis-with-nodejs-and-express",
+      "title": "Building Performant APIs with Node.js and Express",
+      "excerpt": "Best practices for organizing Express route handlers, middleware pipelines, rate limiting, and robust error management.",
+      "content": "## Structuring Production-Grade Express APIs\n\nExpress remains one of the most flexible frameworks in the Node.js ecosystem. With clean architectural patterns, it delivers blistering performance and maintainable codebases.\n\n### 1. Unified Async Error Middleware\nAvoid repetitive try-catch blocks with central wrapper utilities:\n\n```typescript\nexport const asyncHandler = (fn: any) => \n  (req: any, res: any, next: any) => {\n    Promise.resolve(fn(req, res, next)).catch(next);\n  };\n```\n\n### 2. Defensive Validation\nAlways sanitize and validate request bodies using typed schemas before letting queries touch persistence layers.\n\n### 3. Graceful Shutdown\nHandle `SIGTERM` and `SIGINT` signals properly to allow active in-flight requests to complete before terminating.",
+      "coverImage": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=1200&auto=format&fit=crop&q=80",
+      "category": "Programming",
+      "tags": [
+        "NodeJS",
+        "Express",
+        "Backend",
+        "APIs"
+      ],
+      "authorId": "usr-1",
+      "author": {
+        "id": "usr-1",
+        "name": "Alex Morgan",
+        "email": "alex@example.com",
+        "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+        "bio": "Senior Software Architect & Full-Stack Developer."
+      },
+      "status": "published",
+      "views": 872,
+      "likes": [
+        "usr-3"
+      ],
+      "readTime": 4,
+      "createdAt": "2025-05-22T13:00:00.000Z",
+      "updatedAt": "2025-05-22T13:00:00.000Z"
+    },
+    {
+      "id": "post-6",
+      "slug": "the-art-of-modern-css-and-tailwind-v4",
+      "title": "The Art of Modern CSS and Tailwind v4",
+      "excerpt": "Deep dive into container queries, color-mix functions, modern grid subgrids, and how Tailwind CSS v4 streamlines styling.",
+      "content": "## The Next Era of CSS Styling\n\nCSS has advanced faster in the last two years than in the previous decade combined. Features like CSS nesting, color-mix(), and container queries are now universally available across all modern browsers.\n\n### Why Tailwind v4 Shines\n- Instant compilation powered by Rust lightningcss.\n- Simplified single @import declaration.\n- Direct CSS variable theming without complex config files.\n\n```css\n@import \"tailwindcss\";\n\n@theme {\n  --color-brand-primary: oklch(0.6 0.25 260);\n}\n```\n\nAdopt semantic markup and let modern utility classes handle responsive typography and accessible color contrasts effortlessly!",
+      "coverImage": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=1200&auto=format&fit=crop&q=80",
+      "category": "Web Development",
+      "tags": [
+        "CSS",
+        "TailwindCSS",
+        "Frontend",
+        "WebDev"
+      ],
+      "authorId": "usr-3",
+      "author": {
+        "id": "usr-3",
+        "name": "Marcus Vance",
+        "email": "marcus@example.com",
+        "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+        "bio": "Lead UI/UX Designer & Frontend Craftsman."
+      },
+      "status": "published",
+      "views": 650,
+      "likes": [
+        "usr-1",
+        "usr-2"
+      ],
+      "readTime": 3,
+      "createdAt": "2025-05-24T08:30:00.000Z",
+      "updatedAt": "2025-05-24T08:30:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt-1",
+      "postId": "post-1",
+      "authorId": "usr-2",
+      "author": {
+        "id": "usr-2",
+        "name": "Sarah Chen",
+        "email": "sarah@example.com",
+        "profileImage": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80"
+      },
+      "content": "Fantastic breakdown, Alex! The section on state hierarchy resonates deeply. We often see teams over-complicating client-side caches when simpler HTTP caching solves 80% of problems.",
+      "parentId": null,
+      "likes": [
+        "usr-1",
+        "usr-3"
+      ],
+      "createdAt": "2025-05-11T10:15:00.000Z",
+      "updatedAt": "2025-05-11T10:15:00.000Z"
+    },
+    {
+      "id": "cmt-2",
+      "postId": "post-1",
+      "authorId": "usr-1",
+      "author": {
+        "id": "usr-1",
+        "name": "Alex Morgan",
+        "email": "alex@example.com",
+        "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80"
+      },
+      "content": "Thanks Sarah! Exactly—cache invalidation remains one of the classic hard problems, so keeping the cache boundary well-defined is essential.",
+      "parentId": "cmt-1",
+      "likes": [
+        "usr-2"
+      ],
+      "createdAt": "2025-05-11T11:45:00.000Z",
+      "updatedAt": "2025-05-11T11:45:00.000Z"
+    },
+    {
+      "id": "cmt-3",
+      "postId": "post-2",
+      "authorId": "usr-3",
+      "author": {
+        "id": "usr-3",
+        "name": "Marcus Vance",
+        "email": "marcus@example.com",
+        "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+      },
+      "content": "Great insights on agent loops. How do you usually handle visual loading feedback when an agent takes 5-10 seconds to reason through multi-step tools?",
+      "parentId": null,
+      "likes": [
+        "usr-2"
+      ],
+      "createdAt": "2025-05-15T14:20:00.000Z",
+      "updatedAt": "2025-05-15T14:20:00.000Z"
+    },
+    {
+      "id": "cmt-4",
+      "postId": "post-3",
+      "authorId": "usr-4",
+      "author": {
+        "id": "usr-4",
+        "name": "Elena Rostova",
+        "email": "elena@example.com",
+        "profileImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80"
+      },
+      "content": "The spring animation example is spot-on. Adding subtle physical cues makes interfaces feel so much more premium and responsive.",
+      "parentId": null,
+      "likes": [
+        "usr-3"
+      ],
+      "createdAt": "2025-05-19T09:05:00.000Z",
+      "updatedAt": "2025-05-19T09:05:00.000Z"
+    }
+  ]
+}

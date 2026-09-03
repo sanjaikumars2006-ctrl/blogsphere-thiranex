@@ -1,0 +1,6 @@
+{
+  "name": "BlogSphere - Modern Blog Platform",
+  "description": "A modern, full-stack blog publishing platform with authentication, interactive comments, rich content creation, author profiles, and real-time analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
